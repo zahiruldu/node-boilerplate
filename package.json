@@ -1,0 +1,37 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "description": "Sample node boilerplate",
+  "main": "server.js",
+  "scripts": {
+    "test": "start",
+    "start": "DEBUG=* node server.js",
+    "pretest": "./node_modules/jshint/bin/jshint app && ./node_modules/jshint/bin/jshint config"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org:zahiruldu/node-boilerplate.git"
+  },
+  "keywords": [
+    "Movie",
+    "cefalo"
+  ],
+  "author": "Md. Zahirul Haque",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/zahiruldu/node-boilerplate#readme",
+  "dependencies": {
+    "body-parser": "^1.18.0",
+    "compression": "^1.7.0",
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "mongoose": "^4.12.4",
+    "morgan": "^1.8.2"
+  },
+  "bin": {
+    "jshint": "./bin/jshint"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.5"
+  }
+}
