@@ -43,11 +43,9 @@ npm test
 ```
 * Deployment instructions
 
-### Warning ###
-This Api architecture is not permitted to use anywhere without the author's pre-consent.
 
 
 ### Who do I talk to? ###
 
-* Repo owner or admin
+* Maintainer
 Md. Zahirul Haque
