@@ -12,7 +12,7 @@ To run the Api application follow the following steps. Be sure you are using Nod
 
 * Configuration
 ```
-git clone git@bitbucket.org:zahiruldu/node-boilerplate.git
+git clone git@github.com:zahiruldu/node-boilerplate.git
 cd node-boilerplate
 npm install
 npm start
