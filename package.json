@@ -26,12 +26,12 @@
     "dotenv": "^4.0.0",
     "express": "^4.16.2",
     "mongoose": "^4.12.4",
-    "morgan": "^1.8.2"
+    "morgan": "^1.9.1"
   },
   "bin": {
     "jshint": "./bin/jshint"
   },
   "devDependencies": {
-    "jshint": "^2.9.5"
+    "jshint": "^2.10.2"
   }
 }
